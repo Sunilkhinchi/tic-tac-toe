@@ -35,14 +35,14 @@ function Board() {
         console.log("player 1 wins");
         alert("game over");
         setTimeout(() => {
-          window.location = "/";
+          window.location = "/tic-tac-toe/";
         }, 500);
       }
       if (marks[c[0]] === 2 && marks[c[1]] === 2 && marks[c[2]] === 2) {
         console.log("player 2 wins");
         alert("game over");
         setTimeout(() => {
-          window.location = "/";
+          window.location = "/tic-tac-toe/";
         }, 500);
       }
     }
